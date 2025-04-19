@@ -1,18 +1,26 @@
-## Getting Started
+Java Minesweeper Game
+A simple and interactive Minesweeper game built using Java Swing GUI — with difficulty levels, tile flagging, and win/lose detection!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Features
+🎮 Three difficulty levels: Easy, Normal, and Hard
 
-## Folder Structure
+💣 Randomly placed mines with visual bomb reveal
 
-The workspace contains two folders by default, where:
+🚩 Right-click flagging for suspected mines
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+✅ Win detection and restart prompt
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+🖥️ Built with Java AWT and Swing for GUI
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+💡 Beginner-friendly code structure for learning GUI concepts
 
-## Dependency Management
+How It Works??
+Select a difficulty level (Easy, Normal, Hard).
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Left-click tiles to reveal them.
+
+If the tile is a mine 💣, game over!
+
+Right-click to place 🚩 flags where you suspect a mine.
+
+Clear all safe tiles to win!
